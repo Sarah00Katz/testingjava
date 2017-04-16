@@ -1,6 +1,7 @@
 function setup() {
-  createCanvas(screen.width, screen.height);
+  canvas = createCanvas(windowWidth,windowHeight);
 }
+
 
 function draw() {
   if (mouseIsPressed) {
